@@ -1,0 +1,23 @@
+version: "3.1"
+
+rules:
+
+- rule: Say goodbye anytime the user says goodbye
+  steps:
+  - intent: goodbye
+  - action: utter_goodbye
+
+- rule: Say 'I am a bot' anytime the user challenges
+  steps:
+  - intent: bot_challenge
+  - action: utter_iamabot
+
+- rule: Respond to weird noise
+  steps:
+  - intent: weird_noise
+  - action: utter_weird_noise
+
+- rule: Respond to check warning light
+  steps:
+  - intent: check_warning_light
+  - action: utter_check_warning_light

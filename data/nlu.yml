@@ -102,4 +102,10 @@ nlu:
     - I see a warning light blinking
     - I see a warning light
 
+- intent: report_issue
+  examples: |
+    - why battery is not charging
+    - my ev is not working
+    - what happened to battery
+    - there's a problem with my ev
 

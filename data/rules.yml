@@ -21,3 +21,8 @@ rules:
   steps:
   - intent: check_warning_light
   - action: utter_check_warning_light
+
+- rule: Respond to EV issue
+  steps:
+  - intent: report_issue
+  - action: action_ev_diagnosis

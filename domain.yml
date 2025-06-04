@@ -10,6 +10,10 @@ intents:
   - bot_challenge
   - weird_noise
   - check_warning_light
+  - report_issue  
+
+actions:
+  - action_ev_diagnosis
 
 responses:
   utter_greet:
@@ -36,6 +40,9 @@ responses:
 
   utter_check_warning_light:
   - text: "The warning light indicates a potential issue with your car. It's best to consult your vehicle's manual or take it to a mechanic for diagnosis."
+
+  utter_default:
+    - text: "Sorry, I didn't understand. Can you rephrase that?"
 
 session_config:
   session_expiration_time: 60

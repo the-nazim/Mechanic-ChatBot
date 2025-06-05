@@ -1,0 +1,14 @@
+{
+  "0": "affirm",
+  "1": "ask_battery",
+  "2": "ask_electrical_components",
+  "3": "ask_motor",
+  "4": "bot_challenge",
+  "5": "check_warning_light",
+  "6": "deny",
+  "7": "goodbye",
+  "8": "greet",
+  "9": "mood_great",
+  "10": "mood_unhappy",
+  "11": "weird_noise"
+}

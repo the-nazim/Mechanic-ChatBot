@@ -102,10 +102,25 @@ nlu:
     - I see a warning light blinking
     - I see a warning light
 
-- intent: report_issue
+- intent: ask_battery
   examples: |
     - why battery is not charging
-    - my ev is not working
-    - what happened to battery
-    - there's a problem with my ev
+    - why battery is not working
+    - why battery is overheating
+    - why battery is not working properly
 
+- intent: ask_motor
+  examples: |
+    - why motor is not working
+    - why motor is not rotating properly
+    - why sound is coming from motor
+    - why motor is making sound
+    - why motor is not functioning properly
+
+- intent: ask_electrical_components
+  examples: | 
+    - why door is not opening
+    - why lights are not working
+    - why horn is not working
+    - why door is not closing 
+    - the door is stuck

@@ -29,7 +29,3 @@ stories:
   - intent: deny
   - action: utter_goodbye
 
-- story: EV issue diagnosis
-  steps:
-  - intent: report_issue
-  - action: action_ev_diagnosis

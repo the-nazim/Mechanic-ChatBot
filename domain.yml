@@ -10,10 +10,9 @@ intents:
   - bot_challenge
   - weird_noise
   - check_warning_light
-  - report_issue  
-
-actions:
-  - action_ev_diagnosis
+  - ask_battery
+  - ask_motor
+  - ask_electrical_components  
 
 responses:
   utter_greet:
@@ -43,6 +42,12 @@ responses:
 
   utter_default:
     - text: "Sorry, I didn't understand. Can you rephrase that?"
+
+actions:
+  - action_battery_diagnosis
+  - action_motor_diagnosis
+  - action_electrical_components_diagnosis
+
 
 session_config:
   session_expiration_time: 60

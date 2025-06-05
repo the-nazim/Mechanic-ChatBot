@@ -22,7 +22,18 @@ rules:
   - intent: check_warning_light
   - action: utter_check_warning_light
 
-- rule: Respond to EV issue
+- rule: Respond to Battery issue
   steps:
-  - intent: report_issue
-  - action: action_ev_diagnosis
+  - intent: ask_battery
+  - action: action_battery_diagnosis
+
+- rule: Respond to Motor issue
+  steps:
+  - intent: ask_motor
+  - action: action_motor_diagnosis
+
+- rule: Respond to Electrical components issue
+  steps:
+  - intent: ask_electrical_components
+  - action: action_electrical_components_diagnosis
+
